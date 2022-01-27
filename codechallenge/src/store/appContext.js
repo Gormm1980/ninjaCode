@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import getState from "./flux.js";
+import getState from "./GetApi.js";
 
 export const Context = React.createContext(null);
 

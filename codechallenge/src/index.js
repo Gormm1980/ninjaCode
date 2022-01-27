@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './Layout';
-import reportWebVitals from './reportWebVitals';
+//import react into the bundle
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//include bootstrap npm library into the bundle
+import "bootstrap/dist/css/bootstrap.css";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import "./styles/index.css";
+
+//import your own components
+import Layout from "./Layout.js";
+
+//render your react application
+ReactDOM.render(<Layout />, document.querySelector("#app"));

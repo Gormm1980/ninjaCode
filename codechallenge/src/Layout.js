@@ -1,38 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import injectContext from "./store/appContext.js";
 
-import Footer from "./component/footer.js";
-import Navbar from "./component/navbar.js";
+import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact.jsx";
 
-import Home from "./pages/home.js";
-import About from "./pages/about.js";
-import Contact from "./pages/contact.js";
-import Users from "./pages/Users.jsx";
-
-function Layout(props) {
+function Layout() {
 	return (
 		<Router>
 			<Navbar />
 
 			<div className="page">
-				<Switch>
-					<Route exact path="/">
-						<Home />
+				<Routes>
+					<Route exact path="/" element={<Home />}>
 					</Route>
 
-					<Route path="/about">
-						<About />
+					<Route path="/contact" element={<Contact/>}>
+					
 					</Route>
 
-					<Route path="/contact">
-						<Contact />
-					</Route>
-
-					<Route path="/User/:index">
-						<Users />
-					</Route>
-				</Switch>
+				</Routes>
 			</div>
 
 			<Footer />
