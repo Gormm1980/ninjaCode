@@ -1,0 +1,64 @@
+
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+#button-info {
+    width: 120px;
+    margin-top: 100px;
+    
+}
+
+.user-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.title {
+    display: flexbox;
+    text-align: center;
+    font-family: Cambria;
+    text-shadow: 2px 2px #d3d3d3;
+    font-size: 75px;
+    color: black;
+}
+.card-container {
+    overflow-y: scroll; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    min-width: 350px;
+    justify-content: space-between;
+    margin: 10px;
+    background-color:#d0d6f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top {
+    height: 50%;
+   
+}
+.card-body {
+    height: 250px;
+}
+h1{
+    margin-left: 50px;
+}
+h5 {
+
+   text-align: center;
+}
+.divider {
+    padding: 1px;
+    margin: 35px;
+}

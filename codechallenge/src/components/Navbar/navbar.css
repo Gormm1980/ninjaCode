@@ -1,0 +1,14 @@
+.navbar{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+.me-auto{
+    margin-left: auto;
+}

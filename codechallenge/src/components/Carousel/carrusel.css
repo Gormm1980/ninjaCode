@@ -1,0 +1,33 @@
+
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+
+.Carousel{
+    
+    margin-top: 50px;
+
+}
+
+#button {
+    width: 100px;
+    margin-top: 50px;
+}
+#info {
+    display: flex;
+    padding-top: 15px;
+    font-family: Cambria;
+    text-shadow: 2px 2px #d3d3d3;
+    font-size: 18px;
+}
+
+img {
+    width: 500px;
+    height: 700px;
+  border-radius: 10px;
+}
+
+h1{
+align-items: center;
+}
