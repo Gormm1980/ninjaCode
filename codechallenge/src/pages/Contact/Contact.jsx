@@ -12,7 +12,7 @@ function Contact() {
 
         <div className="d-grid gap-2">
           <img id="picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQGQ1jsKaI82-g/profile-displayphoto-shrink_800_800/0/1632916111033?e=1649289600&v=beta&t=CbtUWO5HT7Eu2aM75YZFAx8IWYaWZx9MV44-8h9UIU8" alt="" />
-  <Button className= "b-contact" variant="info" size="lg" href="https://www.linkedin.com/in/guillermo-santamaria-developer/">
+  <Button className= "b-contact" variant="secondary" size="lg" href="https://www.linkedin.com/in/guillermo-santamaria-developer/">
      <p className="p-contact">To contact only press</p>
   </Button>
   

@@ -22,13 +22,13 @@ function NewNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">
-            <Button variant="outline-secondary" size="lg" disabled>Home   </Button>      
+            <Button variant="outline-secondary" size="lg">Home   </Button>      
              
             </Nav.Link>
             <Nav.Link href="/Users"> 
-            <Button variant="outline-secondary" size="lg" disabled>All Users</Button></Nav.Link>
+            <Button variant="outline-secondary" size="lg">All Users</Button></Nav.Link>
             <Nav.Link href="/Contact">
-            <Button variant="outline-secondary" size="lg" disabled>Contact</Button></Nav.Link>
+            <Button variant="outline-secondary" size="lg">Contact</Button></Nav.Link>
             
           </Nav>
         </Navbar.Collapse>

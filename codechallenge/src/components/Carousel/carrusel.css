@@ -19,11 +19,12 @@
     padding-top: 15px;
     font-family: Cambria;
     text-shadow: 2px 2px #d3d3d3;
+    color: black;
     font-size: 18px;
 }
 
 img {
-    width: 500px;
+    width: 300px;
     height: 700px;
   border-radius: 10px;
 }

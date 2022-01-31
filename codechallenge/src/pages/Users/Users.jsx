@@ -1,6 +1,8 @@
 import React, { useContext, useEffect } from "react";
 import  Card  from "../../components/Card.jsx";
 import { Context } from "../../store/appContext.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelopeOpenText, faUser } from "@fortawesome/free-solid-svg-icons";
  import "./users.css";
 
 
@@ -23,8 +25,8 @@ function Users() {
 
 				 {store.users.map((user, index) => (
 					<Card key={index} resource="users" id={index}>
-						<h5 className="card-title">{user.name}</h5>
-						<p className="card-text">Email: {user.email}</p>
+						<h5 className="card-title"><FontAwesomeIcon icon={faUser}></FontAwesomeIcon> {user.name}</h5>
+						<p className="card-text"><FontAwesomeIcon icon={faEnvelopeOpenText}></FontAwesomeIcon> {user.email}</p>
 						
 					</Card>
 				))} 

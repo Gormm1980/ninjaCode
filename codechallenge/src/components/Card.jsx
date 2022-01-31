@@ -17,7 +17,7 @@ function Card (props) {
 				{props.children}
 			
 			<Link  to="/" className="btn btn-info" id="button-info">
-					Learn More!
+					More info!
 				</Link>
 				
 			</div>
